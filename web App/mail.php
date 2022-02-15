@@ -8,7 +8,7 @@ $graduation = $_POST['grade'];
 $message= $_POST['message'];
 
 
-$to = "vrvarisrana111@gmail.com";
+$to = "Info@quantumanalytics.in";
 
 $subject = "Mail From quantumAnalytics";
 $txt ="Name = ". $name . "\r\n Email = " . $email ."\r\n Mobile number =". $number ."\r\n Graduation =".$graduation. "\r\n Message =" . $message ;
@@ -20,3 +20,4 @@ if($email!=NULL){
 //redirect
 header("Location:thankyou.html");
 ?>
+ 
